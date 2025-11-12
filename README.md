@@ -3,23 +3,37 @@
 ## Excecutive Summary
 
 Using Python and SQLAlchemy, to explore the basic climate analysis and data exploration with climate database.
-To help with my trip planning, I decided to do a climate analysis about the area.
+Honolulu is the capital and largest city of Hawaii, located on the island of Oahu, and is a major cultural, economic, 
+and tourism hub. To help with my trip planning, I decided to do a climate analysis about the area.
 
 ## Methedology
 
+Python : Using jupyter notebook for python programming and import all modules like matplotlib, Numpy, pandas, pyplot, datetime from the base core
+to find the exploratory precipitation and station analysis.
+SQLAlchemy : Using Visual Studio Code, Import sqlAlchemy, from SQLAlchemy to get automap_base, create_engine, func, inspect
+Flask : Import flask and jasonify
+
 ## Skills
+Data cleaning, interptretation, API keys, Histogram, matplot.pyplot chart, @app.route, def functions. 
 
 SQLAlchemy ORM(object-relational mapper) queries, Pandas, and Matplotlib. 
 
 Use the SQLAlchemy create_engine() function to connect to your SQLite database.
 
-Use the SQLAlchemy automap_base() function to reflect your tables into classes, and then save references to the classes named station and measurement.
+Used the SQLAlchemy automap_base() function to reflect your tables into classes, and then save references to the classes named station and measurement.
 
-Link Python to the database by creating a SQLAlchemy session.
+Linked Python to the database by creating a SQLAlchemy session.
 
-Perform a precipitation analysis and then a station analysis by completing the steps in the following two subsections.
+Performed a precipitation analysis and then a station analysis by completing the steps in the following two subsections.
 
-Part 2: Design Your Climate App
+## API key
+
+https://openweathermap.org/api
+
+## Exploratory analysis with time series
+
+### Design Your Climate App
+
 I designed a Flask API based on the queries that just developed. use Flask to create @app routes as follows:
 1.	/
 Start at the homepage.
@@ -68,8 +82,16 @@ o	For a specified start date and end date, calculate TMIN, TAVG, and TMAX for th
     
     
   @app.route("/api/v1.0/<start>"). in this route, we have to give any <start> format like "/api/v1.0/2016-08-23" in the web page. then server returns TMIN , TMAX, TAVG. 
-Conclusion
-precipitation analysis
+
+## Result and Personal Reflections
+
+<img width="136" height="148" alt="image" src="https://github.com/user-attachments/assets/22a3bb15-d399-40c0-b3d2-24349676296b" />
+
+The minimum rainfall precipitation is 0, and maximum is 6.7. 
+The best time for a trip to Honolulu depends on your priorities, but April, May, September, and October are generally considered ideal due to a good balance of dry weather and fewer crowds.
+I studied how to use API keys from different websites and getting the best results.
+
+
 ![image](https://github.com/stargily2017/sqlalchemy-challenge/assets/117419179/369241d2-76d5-4255-a36a-fb9ab9c70939)
 
 Temperature vs frequency for all the stations
