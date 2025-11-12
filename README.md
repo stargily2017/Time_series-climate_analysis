@@ -1,7 +1,15 @@
-# sqlalchemy-challenge
-Climate Analysis in Honolulu, Hawaii.
+# Time series climate analysis in Honolulu, Hawaii
 
-Part 1 Analyze and Explore the Climate Data In this section, I used Python and SQLAlchemy to do a basic climate analysis and data exploration of your climate database. Specifically, SQLAlchemy ORM(object-relational mapper) queries, Pandas, and Matplotlib. 
+## Excecutive Summary
+
+Using Python and SQLAlchemy, to explore the basic climate analysis and data exploration with climate database.
+To help with my trip planning, I decided to do a climate analysis about the area.
+
+## Methedology
+
+## Skills
+
+SQLAlchemy ORM(object-relational mapper) queries, Pandas, and Matplotlib. 
 
 Use the SQLAlchemy create_engine() function to connect to your SQLite database.
 
